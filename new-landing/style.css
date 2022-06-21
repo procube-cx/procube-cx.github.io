@@ -74,3 +74,25 @@ body {
   padding-left: 30px;
   flex: 1;
 }
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+.footer {
+  background-color: #ffff;
+  color: black;
+  line-height: 1.5;
+}
+.footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ft-social-list {
+  display: flex;
+  gap: 10px;
+}
+.fab {
+  color: black;
+}
